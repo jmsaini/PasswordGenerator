@@ -7,12 +7,16 @@ python generator.py
 ```
 Some Examples:
 ```
-Enter the desired length of the password: 13
-Your password is: +>72A3d9M'lIt
+Enter the desired length of the password: 24
+Your password is: !+>v4W2zNz?9rlR\XXJi-849
 ```
 ```
-Enter the desired length of the password: 0
+Enter the desired length of the password: 5
 The password must have at least 8 characters.
 Please enter again!
+```
+```
+Enter the desired length of the password: c
+Please enter a whole number!
 ```
 **Please note that this is only a project.
