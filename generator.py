@@ -10,7 +10,8 @@ def check_input():
     user_input = input("Enter the desired length of the password: ")
     try:
         int(user_input)
-        generate_password(int(user_input))
+        if int(user_input) >= 8:
+            generate_password(int(user_input))
     except ValueError:
         print("Please enter a whole number!")
         check_input()
